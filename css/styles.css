@@ -2,4 +2,37 @@
 
 * {
   font-family: "Cormorant Garamond", serif;
+  box-sizing: border-box;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 10px 25px;
+}
+
+.search-field {
+  text-align: center;
+}
+
+#search {
+  width: 35%;
+  height: 3em;
+  margin: 3em 0;
+}
+
+/* FLEXBOX */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
 }
