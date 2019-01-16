@@ -10,6 +10,9 @@ img {
   height: 300px;
   margin: 10px 25px;
 }
+img:hover {
+  opacity: 0.5;
+}
 
 .search-field {
   text-align: center;

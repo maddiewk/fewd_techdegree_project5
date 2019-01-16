@@ -1,1 +1,1 @@
-# fewd_techdegree_project5
+Build an interactive photo gallery using jQuery plugins
