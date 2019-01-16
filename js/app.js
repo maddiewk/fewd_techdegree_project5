@@ -3,7 +3,7 @@
 lightbox.option({
   'showImageNumberLabel': false,
   'wrapAround': true
-})
+});
 
 
 // ============ Search Box Function ================ //
