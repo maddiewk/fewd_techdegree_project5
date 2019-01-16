@@ -1,3 +1,6 @@
-// $("img").on("click", function() {
-//   console.log("click");
-// });
+// ============ Lightbox Functions ================ //
+
+lightbox.option({
+  'showImageNumberLabel': false,
+  'wrapAround': true
+})

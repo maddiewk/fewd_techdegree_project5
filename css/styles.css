@@ -6,8 +6,8 @@
 }
 
 img {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   margin: 10px 25px;
 }
 
@@ -16,9 +16,18 @@ img {
 }
 
 #search {
-  width: 35%;
+  width: 80%;
   height: 3em;
   margin: 3em 0;
+  transition: background-color 1s ease-in-out, border 1s ease-in-out, padding 0.2s ease-in-out;
+  outline: none;
+  border: 1px solid #A5F5CE;
+}
+
+#search:focus {
+  background-color: #CAEEDD;
+  border: 1px solid #89CAAA;
+  padding: 10px;
 }
 
 /* FLEXBOX */
@@ -31,8 +40,21 @@ img {
 
 /* MEDIA QUERIES */
 
-@@media (min-width: 768px) {
+@media (min-width: 768px) {
+  #search {
+    width: 50%;
+  }
   .container {
     flex-direction: row;
+  }
+}
+
+@media (min-width: 1000px) {
+  #search {
+    width: 33%;
+  }
+  img {
+    width: 250px;
+    height: 250px;
   }
 }
