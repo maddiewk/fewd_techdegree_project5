@@ -5,9 +5,9 @@
   box-sizing: border-box;
 }
 
-img {
-  width: 300px;
-  height: 300px;
+.gallery img {
+  width: 375px;
+  height: 275px;
   margin: 10px 25px;
 }
 img:hover {
@@ -76,6 +76,7 @@ a:focus {
   #search {
     width: 50%;
   }
+
   .container {
     flex-direction: row;
   }
@@ -96,8 +97,8 @@ a:focus {
   #search {
     width: 33%;
   }
-  img {
-    width: 250px;
-    height: 250px;
+  .gallery img {
+    width: 275px;
+    height: 215px;
   }
 }

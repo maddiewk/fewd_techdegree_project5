@@ -1,7 +1,7 @@
 // ============ Lightbox Functions ================ //
 
 lightbox.option({
-  'showImageNumberLabel': false,
+  'showImageNumberLabel': true,
   'wrapAround': true
 });
 
@@ -13,12 +13,12 @@ $('#search').on('keyup', function() {
   const $anchor = $('.gall').length;
 
   for (let i = 0; i < $anchor; i++) {
-    let $currentLink = $('.gall').eq(i);
-    let $caption = $currentLink.attr('data-title');
+    let $currentImage = $('.gall').eq(i);
+    let $caption = $currentImage.attr('data-title');
     if ($caption.indexOf($userInput) > -1) {
-       $currentLink.css('display', '');
+       $currentImage.css('display', '');
      } else {
-       $currentLink.css('display', 'none');
+       $currentImage.css('display', 'none');
      }
    }
 });
